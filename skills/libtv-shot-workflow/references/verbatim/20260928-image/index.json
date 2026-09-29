@@ -1,0 +1,314 @@
+[
+  {
+    "id": "I101",
+    "media": "image",
+    "subject": "橘猫",
+    "framing_research_label": "全身三视与身份特写",
+    "task": "角色身份与背包状态分别继承",
+    "source_project_id": "0e7c3055d792405ba6a5f3412164d200",
+    "source_node_id": "i-um82t63e8er2",
+    "source_name": "小橘-背包状态图(重新对齐)",
+    "source_url": "https://www.liblib.tv/canvas?projectId=0e7c3055d792405ba6a5f3412164d200",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "e25009d7a1e4c515f28acdc7180035ac1e60facf247708348383a9ee0bde65a4",
+    "prompt_sha256": "f3f3b9b77781106247bfdb71f142d0e6588051a70c9931468c3163b102384a11",
+    "utf8_bytes": 1351,
+    "chars": 541,
+    "text_file": "I101.txt",
+    "current_model": "General image Pro",
+    "current_mode": "image2image",
+    "settings": {
+      "quality": "4K",
+      "ratio": "16:9"
+    },
+    "top_duration": null,
+    "actual_input_ids": [
+      "i-6abg724paanr",
+      "i-4qnwujxfm36z"
+    ],
+    "incoming_ids": [
+      "i-4qnwujxfm36z",
+      "i-6abg724paanr"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "image",
+          "width": 5504,
+          "height": 3072
+        }
+      ]
+    },
+    "observation_scope": "已读提示、真实输入与连线；未单独视觉复核此图",
+    "original_media_bindings_reusable": false
+  },
+  {
+    "id": "I102",
+    "media": "image",
+    "subject": "拟人角色",
+    "framing_research_label": "面部近景与衣装全身",
+    "task": "多视图设定卡",
+    "source_project_id": "2b0af7bfd17c48f3acae8ebe152bcffc",
+    "source_node_id": "i-6p8LfSlvxK",
+    "source_name": "图片节点 10",
+    "source_url": "https://www.liblib.tv/canvas?projectId=2b0af7bfd17c48f3acae8ebe152bcffc",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "61a8b8f0074473f52b18d02151ee6f25efe563a8af1b675cde77fc29ab46635a",
+    "prompt_sha256": "5329dbac388775fe3665b88f9328ae3131be64585fb3d552f320b5c53376242d",
+    "utf8_bytes": 1379,
+    "chars": 472,
+    "text_file": "I102.txt",
+    "current_model": "Seedream 5.0 Pro",
+    "current_mode": "image2image",
+    "settings": {
+      "quality": "2K",
+      "ratio": "3:4"
+    },
+    "top_duration": null,
+    "actual_input_ids": [
+      "i-Srq87k9pPu"
+    ],
+    "incoming_ids": [
+      "i-Srq87k9pPu"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "image",
+          "width": 1760,
+          "height": 2352
+        }
+      ]
+    },
+    "observation_scope": "已看产物；提示9:16与配置及实际约3:4不一致；当前无出边",
+    "original_media_bindings_reusable": false
+  },
+  {
+    "id": "I103",
+    "media": "image",
+    "subject": "无人街道",
+    "framing_research_label": "全景",
+    "task": "白模中间图",
+    "source_project_id": "2b0af7bfd17c48f3acae8ebe152bcffc",
+    "source_node_id": "i-E15ZjDFdvc",
+    "source_name": "图片节点 14",
+    "source_url": "https://www.liblib.tv/canvas?projectId=2b0af7bfd17c48f3acae8ebe152bcffc",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "79122aa788b5edaba5aa1800e28daaff664a452f69aa7aff8ec1cc8712d60edf",
+    "prompt_sha256": "c7ac33fe048412545cc87a8c8ff2ec0e1ac1bda096a20d7adba3a7ea0bd4e6f8",
+    "utf8_bytes": 12,
+    "chars": 4,
+    "text_file": "I103.txt",
+    "current_model": "Seedream 5.0 Pro",
+    "current_mode": "image2image",
+    "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+    },
+    "top_duration": null,
+    "actual_input_ids": [
+      "i-K9AV5i1DK2"
+    ],
+    "incoming_ids": [
+      "i-K9AV5i1DK2"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "image",
+          "width": 2720,
+          "height": 1536
+        }
+      ]
+    },
+    "observation_scope": "已看白模；原文白膜保留；未证明下游成片采用",
+    "original_media_bindings_reusable": false
+  },
+  {
+    "id": "I104",
+    "media": "image",
+    "subject": "无人道路",
+    "framing_research_label": "全景",
+    "task": "空间母版与方向关系",
+    "source_project_id": "50d937e12f4847ffbbec153eb3f285d1",
+    "source_node_id": "i-7GbSOMXuLd",
+    "source_name": "图片节点 5",
+    "source_url": "https://www.liblib.tv/canvas?projectId=50d937e12f4847ffbbec153eb3f285d1",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "7f96d90268dbc9c4149a4286025a689425e06adaa5a9e76bdaf29e6dd35e711e",
+    "prompt_sha256": "701c034f0b68b90cf3ac1343860e1240a00754ea68a1b261ca7d75d917aab300",
+    "utf8_bytes": 751,
+    "chars": 297,
+    "text_file": "I104.txt",
+    "current_model": "Lib Image",
+    "current_mode": "image2image",
+    "settings": {
+      "quality": "medium",
+      "resolution": "2K",
+      "ratio": "16:9"
+    },
+    "top_duration": null,
+    "actual_input_ids": [
+      "i-y7wLmsg2iA",
+      "i-XfJJhLo0yS"
+    ],
+    "incoming_ids": [
+      "i-y7wLmsg2iA",
+      "i-XfJJhLo0yS"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "image",
+          "width": 2048,
+          "height": 1152
+        }
+      ]
+    },
+    "observation_scope": "已看场景图；6个视频节点复用；几何不保证逐像素一致",
+    "original_media_bindings_reusable": false
+  },
+  {
+    "id": "I105",
+    "media": "image",
+    "subject": "猫窝与室内",
+    "framing_research_label": "原构图",
+    "task": "去主体并清理地面倒影",
+    "source_project_id": "3728fcdbdc21407a96698995482c5e90",
+    "source_node_id": "i-6GkUMyaDvq",
+    "source_name": "重绘",
+    "source_url": "https://www.liblib.tv/canvas?projectId=3728fcdbdc21407a96698995482c5e90",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "cbd4ad5a83bc2dd7b2f05b1acff975c3433c9c5fd835c9c9fa9e28d8bcf45df9",
+    "prompt_sha256": "63c985b52aea0e42e07e0502871b1b456c59033ea9bb6b37c6f4e04263ea00da",
+    "utf8_bytes": 42,
+    "chars": 14,
+    "text_file": "I105.txt",
+    "current_model": null,
+    "current_mode": "image2image",
+    "settings": null,
+    "top_duration": null,
+    "actual_input_ids": [
+      "i-NIwxOjXShu"
+    ],
+    "incoming_ids": [
+      "i-NIwxOjXShu"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "image",
+          "width": 2752,
+          "height": 1536
+        }
+      ]
+    },
+    "observation_scope": "已看去猫前后图片；猫与对应映像消失",
+    "original_media_bindings_reusable": false
+  },
+  {
+    "id": "I106",
+    "media": "image",
+    "subject": "猫与城市沙盘",
+    "framing_research_label": "全景",
+    "task": "红轮廓标注摆位",
+    "source_project_id": "3728fcdbdc21407a96698995482c5e90",
+    "source_node_id": "i-QuQHhtGUuV",
+    "source_name": "图片节点 4",
+    "source_url": "https://www.liblib.tv/canvas?projectId=3728fcdbdc21407a96698995482c5e90",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "d9c33b8f3230f345d27cde953e57e0cca7ae4562eeb31e792e0d742207c4550b",
+    "prompt_sha256": "f490ca096f0c30d8383e8facbc23eeec891b8ea7a98479ab077a6e4f97104724",
+    "utf8_bytes": 147,
+    "chars": 79,
+    "text_file": "I106.txt",
+    "current_model": "General image Pro",
+    "current_mode": "image2image",
+    "settings": {
+      "quality": "4K",
+      "ratio": "16:9"
+    },
+    "top_duration": null,
+    "actual_input_ids": [
+      "i-HeRqQVeTO5",
+      "i-fE1bb5eicY"
+    ],
+    "incoming_ids": [
+      "i-fE1bb5eicY",
+      "i-HeRqQVeTO5"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "image",
+          "width": 5504,
+          "height": 3072
+        }
+      ]
+    },
+    "observation_scope": "读取提示和连接；未单独视觉核验该图",
+    "original_media_bindings_reusable": false
+  },
+  {
+    "id": "I107",
+    "media": "image",
+    "subject": "橘猫列车与山",
+    "framing_research_label": "环境全景",
+    "task": "季节与不同对象积雪状态",
+    "source_project_id": "0bcdb06a35ab44e8a47292d961b9370f",
+    "source_node_id": "3404354e-fae5-4f26-95c4-007c8f30f769",
+    "source_name": "图片节点 12",
+    "source_url": "https://www.liblib.tv/canvas?projectId=0bcdb06a35ab44e8a47292d961b9370f",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "8631d8acf9fd5473ad068c4195cd30a17f1470802de6349c136016ac64647aad",
+    "prompt_sha256": "a885ddafbba965017042c9efca735490e8ea0aba53d19f1331d0cfd6e0f9c3e6",
+    "utf8_bytes": 129,
+    "chars": 43,
+    "text_file": "I107.txt",
+    "current_model": "General image Pro",
+    "current_mode": "image2image",
+    "settings": {
+      "quality": "4K",
+      "ratio": "16:9"
+    },
+    "top_duration": null,
+    "actual_input_ids": [
+      "928f413d-940c-424b-940b-64d6f12c2ed3"
+    ],
+    "incoming_ids": [
+      "928f413d-940c-424b-940b-64d6f12c2ed3"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "image",
+          "width": 5504,
+          "height": 3072
+        }
+      ]
+    },
+    "observation_scope": "读取提示和来源链；未核验地理气候事实",
+    "original_media_bindings_reusable": false
+  }
+]

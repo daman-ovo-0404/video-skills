@@ -1,0 +1,4 @@
+interface:
+  display_name: "图片与视频制作"
+  short_description: "按需使用独立的图片或视频模块，参考真实案例编写提示并检查实际结果"
+  default_prompt: "使用 $libtv-shot-workflow，按本次交付选择图片或视频模块，整理实际参考、编写提示并完成已授权的制作与检查。"

@@ -1,0 +1,416 @@
+[
+  {
+    "id": "V101",
+    "media": "video",
+    "subject": "橘猫与摊主",
+    "framing_research_label": "中景与特写",
+    "task": "前片续写及付款接碗动作因果",
+    "source_project_id": "0e7c3055d792405ba6a5f3412164d200",
+    "source_node_id": "v-p5gydqs24xjz",
+    "source_name": "V6b-完整付款接碗品尝流程",
+    "source_url": "https://www.liblib.tv/canvas?projectId=0e7c3055d792405ba6a5f3412164d200",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "70dda963c4ba4e2c871d9e40bfcf9e94fde66818eaccba090b0e9f79d147f285",
+    "prompt_sha256": "2945f2ff14a952e0ff6d880dce4798276906af8e5ab2d378f63199a4ce7123b8",
+    "utf8_bytes": 1835,
+    "chars": 749,
+    "text_file": "V101.txt",
+    "current_model": "Seedance 2.5",
+    "current_mode": "mixed2video",
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 14,
+      "enableSound": "on"
+    },
+    "top_duration": 5,
+    "actual_input_ids": [
+      "i-um82t63e8er2",
+      "i-nh6s4gruc2zx",
+      "v-9fsw9qs3t4bw",
+      "a-j578y79j8jja"
+    ],
+    "incoming_ids": [
+      "i-um82t63e8er2",
+      "v-9fsw9qs3t4bw",
+      "i-nh6s4gruc2zx",
+      "a-j578y79j8jja"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "video",
+          "mimeType": "text/plain",
+          "byteSize": 13784713,
+          "width": 1280,
+          "height": 720,
+          "durationSec": 14.08
+        }
+      ]
+    },
+    "observation_scope": "抽帧支持付款反馈后接碗、展示、品尝；未核验包内收纳和全部音轨",
+    "original_media_bindings_reusable": false
+  },
+  {
+    "id": "V102",
+    "media": "video",
+    "subject": "猫与地标场景",
+    "framing_research_label": "原镜头",
+    "task": "简短目标视频编辑",
+    "source_project_id": "0e7c3055d792405ba6a5f3412164d200",
+    "source_node_id": "v-5wazukoUJv",
+    "source_name": "V1c-纯黑车身+招牌文字强化-片段重拍",
+    "source_url": "https://www.liblib.tv/canvas?projectId=0e7c3055d792405ba6a5f3412164d200",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "e2f18989415ecf000c2be96f4cb5be77c285126cb82cab7734e0a3275a7e0520",
+    "prompt_sha256": "88aee1371e24c1fab4a4457bfd0fd0a68d17b62f2fc27b618d02b1f591e2ec4f",
+    "utf8_bytes": 36,
+    "chars": 12,
+    "text_file": "V102.txt",
+    "current_model": "Seedance 2.5",
+    "current_mode": "videoEdit2video",
+    "settings": {
+      "ratio": "adaptive",
+      "resolution": "720p",
+      "duration": 0,
+      "enableSound": "on"
+    },
+    "top_duration": null,
+    "actual_input_ids": [
+      "v-vf6burv83kvw"
+    ],
+    "incoming_ids": [
+      "v-vf6burv83kvw"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "video",
+          "mimeType": "text/plain",
+          "byteSize": 8416032,
+          "width": 1280,
+          "height": 720,
+          "durationSec": 6.048
+        }
+      ]
+    },
+    "observation_scope": "抽帧去前景猫耳有效；ranges为空；车身黄色标识未修好",
+    "original_media_bindings_reusable": false
+  },
+  {
+    "id": "V103",
+    "media": "video",
+    "subject": "橘猫与中文字",
+    "framing_research_label": "中远景到近景",
+    "task": "精确字动画与完全遮镜反例",
+    "source_project_id": "0e7c3055d792405ba6a5f3412164d200",
+    "source_node_id": "v-PDHzJnMENq",
+    "source_name": "视频节点 3",
+    "source_url": "https://www.liblib.tv/canvas?projectId=0e7c3055d792405ba6a5f3412164d200",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "f251816ec1b6e89bc2b4228d18de4d2e2540d8a65ef7fa1752f559f04d5d23fa",
+    "prompt_sha256": "ab62cff5ebc396cd22921fac86b1ca1b99fa84d55dd3a1e2f9c0b0c533ac1edf",
+    "utf8_bytes": 12187,
+    "chars": 4699,
+    "text_file": "V103.txt",
+    "current_model": "Seedance 2.5",
+    "current_mode": "mixed2video",
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 5,
+      "enableSound": "on"
+    },
+    "top_duration": null,
+    "actual_input_ids": [
+      "i-bJByAI5eLZ"
+    ],
+    "incoming_ids": [
+      "i-bJByAI5eLZ"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "video",
+          "mimeType": "text/plain",
+          "byteSize": 4832642,
+          "width": 1280,
+          "height": 720,
+          "durationSec": 5.056
+        }
+      ]
+    },
+    "observation_scope": "未实现指定退字次序和完全遮镜；不要作为已成功的精确动画配方",
+    "original_media_bindings_reusable": false
+  },
+  {
+    "id": "V104",
+    "media": "video",
+    "subject": "夏夏与班尼",
+    "framing_research_label": "原镜头",
+    "task": "内心声嘴部动作定点修订",
+    "source_project_id": "2b0af7bfd17c48f3acae8ebe152bcffc",
+    "source_node_id": "v-RnQ6ur9a0V",
+    "source_name": "夏夏心声张嘴了-片段重拍",
+    "source_url": "https://www.liblib.tv/canvas?projectId=2b0af7bfd17c48f3acae8ebe152bcffc",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "cced8edcad1ea93cbf19cdebb58c3514e7f64db98725be02aa418bae0f1b7576",
+    "prompt_sha256": "b929e2c05e78f135fcc108e0d81bbef0e5d11691c1c1c0cef5237f60fc09f763",
+    "utf8_bytes": 139,
+    "chars": 81,
+    "text_file": "V104.txt",
+    "current_model": "Seedance 2.5",
+    "current_mode": "videoEdit2video",
+    "settings": {
+      "ratio": "adaptive",
+      "resolution": "720p",
+      "duration": 0,
+      "enableSound": "on"
+    },
+    "top_duration": null,
+    "actual_input_ids": [
+      "v-QGIlLafUel"
+    ],
+    "incoming_ids": [
+      "v-QGIlLafUel"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "video",
+          "mimeType": "video/mp4",
+          "byteSize": 3534065,
+          "width": 1280,
+          "height": 720,
+          "durationSec": 14.56
+        }
+      ]
+    },
+    "observation_scope": "有9.5至15.07秒重拍记录；实际结果14.56秒；静帧不证明嘴型全部修好",
+    "original_media_bindings_reusable": false
+  },
+  {
+    "id": "V105",
+    "media": "video",
+    "subject": "猫与猫窝",
+    "framing_research_label": "全景到产品落幅",
+    "task": "空镜入场与结束构图",
+    "source_project_id": "3728fcdbdc21407a96698995482c5e90",
+    "source_node_id": "v-28BZzqTDwz",
+    "source_name": "***",
+    "source_url": "https://www.liblib.tv/canvas?projectId=3728fcdbdc21407a96698995482c5e90",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "2765809258c79f2a043ae88fd6f59b6c4609cd566d48320470ef80cf0d624047",
+    "prompt_sha256": "d599ee0ab3b8295a85c2457893868737acdfa46c6e3610299aee72e20c953de2",
+    "utf8_bytes": 871,
+    "chars": 484,
+    "text_file": "V105.txt",
+    "current_model": "Seedance 2.0 VIP",
+    "current_mode": "mixed2video",
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 15,
+      "enableSound": "on"
+    },
+    "top_duration": null,
+    "actual_input_ids": [
+      "i-6GkUMyaDvq",
+      "i-b7wqP7BIs5",
+      "i-TyheTo0jDO",
+      "i-fE1bb5eicY",
+      "i-aunRIfvUTj"
+    ],
+    "incoming_ids": [
+      "i-fE1bb5eicY",
+      "i-aunRIfvUTj",
+      "i-6GkUMyaDvq",
+      "i-b7wqP7BIs5",
+      "i-TyheTo0jDO"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "video",
+          "mimeType": "text/plain",
+          "byteSize": 5317032,
+          "width": 1280,
+          "height": 720,
+          "durationSec": 15.092971
+        }
+      ]
+    },
+    "observation_scope": "抽帧起始空镜、猫入场入窝、产品居中成立；多个变量一起变化",
+    "original_media_bindings_reusable": false
+  },
+  {
+    "id": "V106",
+    "media": "video",
+    "subject": "橘猫",
+    "framing_research_label": "面部特写",
+    "task": "眼睛耳朵微表演",
+    "source_project_id": "0bcdb06a35ab44e8a47292d961b9370f",
+    "source_node_id": "a744453f-5add-477d-826c-6ce4a110cc27",
+    "source_name": "视频节点 2",
+    "source_url": "https://www.liblib.tv/canvas?projectId=0bcdb06a35ab44e8a47292d961b9370f",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "8ed80baf24b4842f0067cc59d4582c3c84e5410b90605d102fd379beab82775b",
+    "prompt_sha256": "a2f2510878d9c12b4421438d3450275b6d80bdc4401d4873da91d282508c1240",
+    "utf8_bytes": 317,
+    "chars": 169,
+    "text_file": "V106.txt",
+    "current_model": "Seedance 2.0 Fast VIP",
+    "current_mode": "mixed2video",
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 5,
+      "enableSound": "on"
+    },
+    "top_duration": 5,
+    "actual_input_ids": [
+      "d2c4ef74-1772-4ddd-b153-06ed8a070d95",
+      "5a77b172-9101-4d67-9603-6112000fe522"
+    ],
+    "incoming_ids": [
+      "d2c4ef74-1772-4ddd-b153-06ed8a070d95",
+      "5a77b172-9101-4d67-9603-6112000fe522"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "video",
+          "durationSec": 5.06195,
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    "observation_scope": "抽帧可见飞机耳与眯眼；胡须后倒未充分确认",
+    "original_media_bindings_reusable": false
+  },
+  {
+    "id": "V107",
+    "media": "video",
+    "subject": "男女主角",
+    "framing_research_label": "多景别分镜",
+    "task": "场景复用与剪辑片段续写",
+    "source_project_id": "50d937e12f4847ffbbec153eb3f285d1",
+    "source_node_id": "v-UXpEN1OXBd",
+    "source_name": "视频节点 3 - 副本",
+    "source_url": "https://www.liblib.tv/canvas?projectId=50d937e12f4847ffbbec153eb3f285d1",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "964a84dd50910773c069a7a52e6e358e18935d17ba42b3c3df6ecd82436be813",
+    "prompt_sha256": "0d98857f6e65348abc16336328a920c41c35ca91d718a02851252742102c2b52",
+    "utf8_bytes": 14446,
+    "chars": 5880,
+    "text_file": "V107.txt",
+    "current_model": "Seedance 2.5",
+    "current_mode": "mixed2video",
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 30,
+      "enableSound": "on"
+    },
+    "top_duration": 5,
+    "actual_input_ids": [
+      "i-7GbSOMXuLd",
+      "i-y2QLEXmprw",
+      "i-9ClDgbMvRb",
+      "v-iKcZ29euVt"
+    ],
+    "incoming_ids": [
+      "i-7GbSOMXuLd",
+      "v-iKcZ29euVt",
+      "i-y2QLEXmprw",
+      "i-9ClDgbMvRb"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "video",
+          "mimeType": "text/plain",
+          "byteSize": 31552824,
+          "width": 1280,
+          "height": 720,
+          "durationSec": 30.08
+        }
+      ]
+    },
+    "observation_scope": "抽帧可见递伞及男主独自持伞；未听校日语；镜内时间与禁用项有冲突",
+    "original_media_bindings_reusable": false
+  },
+  {
+    "id": "V108",
+    "media": "video",
+    "subject": "睡猫与丹霞",
+    "framing_research_label": "近景到远景",
+    "task": "以共有纹理组织转场",
+    "source_project_id": "0bcdb06a35ab44e8a47292d961b9370f",
+    "source_node_id": "98273ee3-07b8-4c03-a524-c700e59f1701",
+    "source_name": "视频节点 28",
+    "source_url": "https://www.liblib.tv/canvas?projectId=0bcdb06a35ab44e8a47292d961b9370f",
+    "source_field": "data.params.prompt",
+    "captured_date": "2026-09-28",
+    "completeness": "full CLI-returned prompt string; not necessarily historical generation submission",
+    "source_json_sha256": "509316d81677b3a8e4ffea79107473c220cf2295b4c90c0a46dd31ba13276890",
+    "prompt_sha256": "1e9f08518c927443abaa5c6e5caa1be5d2428dc217772030dbcb4bc90f95e5c6",
+    "utf8_bytes": 530,
+    "chars": 240,
+    "text_file": "V108.txt",
+    "current_model": "Seedance 2.0 Fast VIP",
+    "current_mode": "mixed2video",
+    "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 15,
+      "enableSound": "on"
+    },
+    "top_duration": null,
+    "actual_input_ids": [
+      "d2c4ef74-1772-4ddd-b153-06ed8a070d95",
+      "89bc5ac6-f13b-4cf8-b425-7caaa52fac8b"
+    ],
+    "incoming_ids": [
+      "d2c4ef74-1772-4ddd-b153-06ed8a070d95",
+      "89bc5ac6-f13b-4cf8-b425-7caaa52fac8b"
+    ],
+    "is_stale": false,
+    "resource_meta": {
+      "items": [
+        {
+          "kind": "video",
+          "mimeType": "text/plain",
+          "byteSize": 8827526,
+          "width": 1280,
+          "height": 720,
+          "durationSec": 15.069002
+        }
+      ]
+    },
+    "observation_scope": "六帧可见睡猫、毛纹、丹霞；未验证全段无缝",
+    "original_media_bindings_reusable": false
+  }
+]

@@ -1,0 +1,390 @@
+{
+  "date": "2026-09-29",
+  "source": "九号首席体验官工作区/skills",
+  "skills": [
+    "libtv-shot-workflow",
+    "libtv-canvas-study"
+  ],
+  "files": [
+    {
+      "path": "skills/libtv-canvas-study/SKILL.md",
+      "bytes": 6256,
+      "sha256": "7586460222c9004a1759d43b2011e33a0687d77d5f5b49a0d3a08b646fff83ad"
+    },
+    {
+      "path": "skills/libtv-canvas-study/agents/openai.yaml",
+      "bytes": 328,
+      "sha256": "6c1cf9234109a8e26af385ae84558839d14a72d93c848d28c3b946f4f2466285"
+    },
+    {
+      "path": "skills/libtv-canvas-study/references/case-index.md",
+      "bytes": 5532,
+      "sha256": "666447a57f224f11573b95e54a996382cab4ed1e96be027d12134fb6b234c63c"
+    },
+    {
+      "path": "skills/libtv-canvas-study/references/observation-template.md",
+      "bytes": 2782,
+      "sha256": "8d074d8fc93d61e38ab4ed1e64f1b855844d89dc21428139995d4c1921c32c73"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/SKILL.md",
+      "bytes": 4347,
+      "sha256": "41d1bd249ab079c0a58e0978b6e79cac4e086fc3cc423470fa5af894c408f48d"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/agents/openai.yaml",
+      "bytes": 339,
+      "sha256": "a3ce6f60534b8b3368275273dba7edfabac1bc47accc72dc2385aeb3dcb763df"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/camera-parameters.md",
+      "bytes": 13036,
+      "sha256": "f769f2d937df71da2918a8eae3e2c31c1061a233691bab6d032de74324870bd9"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/case-evidence.md",
+      "bytes": 6561,
+      "sha256": "16572fea32cccc179ce42cd36f4349f1e3b86b9d5e780005017d10df2f755e92"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/cat2-shot-repair.md",
+      "bytes": 6128,
+      "sha256": "af2d74359008c0bf266b69cc527005275b3b3662ebdb18efa5c949fd4974fdf1"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/cinematography-and-editing.md",
+      "bytes": 10785,
+      "sha256": "85a2ad51d25ffed91a0818e43ed9b69e22ef8aebccd4eff3e2322c93c96d0185"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/image-case-evidence.md",
+      "bytes": 7096,
+      "sha256": "c6f62721eacb6102d803507526a69e09eae519ad5e0c78e6f4063f31394bd69b"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/image-examples.md",
+      "bytes": 4996,
+      "sha256": "b40ed3f6b4af9d1a5bd71948b7a3ddc555660d14488cb774d17f082236e30328"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/image-workcard.md",
+      "bytes": 2088,
+      "sha256": "a21059fc369af19d83fd1f87392bb3ab8cdc39135b2392a44be71786be65dd6f"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/model-and-node-checks.md",
+      "bytes": 7543,
+      "sha256": "4147fefb096b41bdcd5cff65d32cc0c5f33588699913efff9954861ed7d78812"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/prompt-patterns.md",
+      "bytes": 6577,
+      "sha256": "05df4eed00a857ce460950a3faa941a11b247430a38fbd7b2888dfa8f49947c5"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/reference-image-prompts.md",
+      "bytes": 7484,
+      "sha256": "5bb024b3115fffc57ca34446a44ae206e4cbe2844108d30809268f08f1be5cca"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-image/I101.txt",
+      "bytes": 1351,
+      "sha256": "f3f3b9b77781106247bfdb71f142d0e6588051a70c9931468c3163b102384a11"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-image/I102.txt",
+      "bytes": 1379,
+      "sha256": "5329dbac388775fe3665b88f9328ae3131be64585fb3d552f320b5c53376242d"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-image/I103.txt",
+      "bytes": 12,
+      "sha256": "c7ac33fe048412545cc87a8c8ff2ec0e1ac1bda096a20d7adba3a7ea0bd4e6f8"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-image/I104.txt",
+      "bytes": 751,
+      "sha256": "701c034f0b68b90cf3ac1343860e1240a00754ea68a1b261ca7d75d917aab300"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-image/I105.txt",
+      "bytes": 42,
+      "sha256": "63c985b52aea0e42e07e0502871b1b456c59033ea9bb6b37c6f4e04263ea00da"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-image/I106.txt",
+      "bytes": 147,
+      "sha256": "f490ca096f0c30d8383e8facbc23eeec891b8ea7a98479ab077a6e4f97104724"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-image/I107.txt",
+      "bytes": 129,
+      "sha256": "a885ddafbba965017042c9efca735490e8ea0aba53d19f1331d0cfd6e0f9c3e6"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-image/index.json",
+      "bytes": 10151,
+      "sha256": "70ef8f17d72e17a021c5af4a39f1ec7b393b846a838ee7760db2a4f685b2c5c0"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-video/V101.txt",
+      "bytes": 1835,
+      "sha256": "2945f2ff14a952e0ff6d880dce4798276906af8e5ab2d378f63199a4ce7123b8"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-video/V102.txt",
+      "bytes": 36,
+      "sha256": "88aee1371e24c1fab4a4457bfd0fd0a68d17b62f2fc27b618d02b1f591e2ec4f"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-video/V103.txt",
+      "bytes": 12187,
+      "sha256": "ab62cff5ebc396cd22921fac86b1ca1b99fa84d55dd3a1e2f9c0b0c533ac1edf"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-video/V104.txt",
+      "bytes": 139,
+      "sha256": "b929e2c05e78f135fcc108e0d81bbef0e5d11691c1c1c0cef5237f60fc09f763"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-video/V105.txt",
+      "bytes": 871,
+      "sha256": "d599ee0ab3b8295a85c2457893868737acdfa46c6e3610299aee72e20c953de2"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-video/V106.txt",
+      "bytes": 317,
+      "sha256": "a2f2510878d9c12b4421438d3450275b6d80bdc4401d4873da91d282508c1240"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-video/V107.txt",
+      "bytes": 14446,
+      "sha256": "0d98857f6e65348abc16336328a920c41c35ca91d718a02851252742102c2b52"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-video/V108.txt",
+      "bytes": 530,
+      "sha256": "1e9f08518c927443abaa5c6e5caa1be5d2428dc217772030dbcb4bc90f95e5c6"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/20260928-video/index.json",
+      "bytes": 13586,
+      "sha256": "cb75f98a9279a1511666004393571dc9f94999661f64bf0775597f09f6e2ed73"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W001.txt",
+      "bytes": 66,
+      "sha256": "e2549aea33fc9993d98074064717d3212efeb2d8a6100f16109868e667231166"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W002.txt",
+      "bytes": 27,
+      "sha256": "81e9ef6a12c1fcb7c26413d53052936e818b03375e2a2dfbcdd8bb56651769f9"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W003.txt",
+      "bytes": 8125,
+      "sha256": "1380422b1c854b6b20c9d7742f8e7ed3894e565ff0d2652c567f6bcd65cb77e1"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W004.txt",
+      "bytes": 685,
+      "sha256": "69ab9f7d1f242a540ca319f5da1756e74faa5138efce15751f6bfa19395c39e1"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W005.txt",
+      "bytes": 485,
+      "sha256": "d0375ca3e6b74136eea14f7ff8d4409f2d2050616d6266532c6fefc44ffa5aea"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W006.txt",
+      "bytes": 11959,
+      "sha256": "d808808d20084bbfae87f5984a244fbcc3cdbe5551a9f04e5cbc763ed905b1bf"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W007.txt",
+      "bytes": 8817,
+      "sha256": "3a699fca13c11adaab407dd92f48a9e56e4ea33bc5238700023ba6f109dbbb72"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W008.txt",
+      "bytes": 960,
+      "sha256": "0891ae4729b104a7adef3cb43ecb6861f137e6bb3e155de21675aac3d26a7c12"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W009.txt",
+      "bytes": 968,
+      "sha256": "cf792b72c2a386af4bb8c4016b29de77583fc9055d70d4422a5abd36f4205749"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W010.txt",
+      "bytes": 960,
+      "sha256": "b727ddcc3cb356fe5b8484bd04e884da793d0480ddb8cd4965b92d16bd81d2c2"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W011.txt",
+      "bytes": 990,
+      "sha256": "7b76666d72d0f6d459a223069bd337a0d30194254d545e1c7ed4c447f8b3ed06"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W012.txt",
+      "bytes": 996,
+      "sha256": "abd6a7a8597cc8f5c703a3ec938f97b410ad6778cfdcf71e60e3b275556ca75b"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W013.txt",
+      "bytes": 1153,
+      "sha256": "e2db26f0ca73e439449fb3cf173e6ebe8bba3aef36cdf54ef98b094b54d1c782"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W014.txt",
+      "bytes": 1168,
+      "sha256": "37927e75747223470afd564ed1231020fbccb32427a226ee5ac611bcc5ee6499"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W015.txt",
+      "bytes": 1019,
+      "sha256": "27232e3cc539da62b6d4b8c81ad530013bc3df2887e44d65ff37afb76ca5d23c"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W016.txt",
+      "bytes": 1208,
+      "sha256": "864eeb1c4b4ec81dc33a6f3738c86ef9f713e5491d81c0e7b0ecf3ab87c0bef5"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W017.txt",
+      "bytes": 1070,
+      "sha256": "827df99a3ae1319af3c58f44ae55cf34077657dd63445784a63aea71f67ce25e"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W018.txt",
+      "bytes": 995,
+      "sha256": "6c902b068bc1194ca7f9aa072b6e4b5fbaf10fde3f76b8a04c9fbb1a29aa288c"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W019.txt",
+      "bytes": 1018,
+      "sha256": "ddbfd46b281370688ae1e0379f606f396bdb53cbbe23ead61bb0cf6ddd770feb"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W020.txt",
+      "bytes": 1103,
+      "sha256": "986c05bfb837dc11eb8171e2b518c1cb83f32eb98e2fb238f2ff4c02cffaf594"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W021.txt",
+      "bytes": 1191,
+      "sha256": "0f7ba082071f83a1d192d743d3f94c953f9fb175a518f668bc5fe86468e51f7b"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W022.txt",
+      "bytes": 1153,
+      "sha256": "0f93838cc246925cbfa90055bcf50680e65ce055d1e3cc7bf778b69f8ccd4834"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W023.txt",
+      "bytes": 478,
+      "sha256": "25f50ddbbedd3b769cf4936470dc5282385d447cebf7ec21e06eff715707d9ce"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W024.txt",
+      "bytes": 449,
+      "sha256": "be9462e7a02e1353d3baee467906f3d917c58b07db1731067bcf6319b5a25afc"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W025.txt",
+      "bytes": 502,
+      "sha256": "6a8d1be8f109d412455860e2b11faf952a5ac45b1e6d11f8781bf0defb6582a8"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W026.txt",
+      "bytes": 549,
+      "sha256": "78a2e927e3948066f9d1308d1ac700db1503acedac5356b40268bbe6f2d986f1"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W027.txt",
+      "bytes": 625,
+      "sha256": "6a8f6213b0be457af373b7318a932635c2a543a54c8eb6466c230441401962e3"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W028.txt",
+      "bytes": 616,
+      "sha256": "64f5a242fe5c2210821560c8a159a7f86ba7638aa0537ba41c6e56641a2a4e27"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W029.txt",
+      "bytes": 623,
+      "sha256": "435782461e1211f461ee719245171c2ebe33fb355ee03356bdbead9494af9eb1"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W030.txt",
+      "bytes": 535,
+      "sha256": "b07f91ee3e9b8aa0e9d91667ee62197db14e57e53d422d7c6294386df1443bfa"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W031.txt",
+      "bytes": 707,
+      "sha256": "57753b14878fc01a845b2529b37c582e03c48a957d1a59976217edc4c140b7e4"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W032.txt",
+      "bytes": 651,
+      "sha256": "590243d137040dd1747b577ac64c077c0f2dfbf9f9303e1475c6e8a2ef82eab2"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W033.txt",
+      "bytes": 570,
+      "sha256": "adb895d158c000d753dcf87b832b2f79b01daec7e69daac80957bd420c2f225c"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W034.txt",
+      "bytes": 629,
+      "sha256": "2c0e2d98d907afeaf4560d88e04d0ff8ba53e0e1d8e73f79b2fd8802aaeac9d2"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W035.txt",
+      "bytes": 678,
+      "sha256": "24e23efc80a67bcf66f10f6f479a0b979ea3faffee5c13b681c20296fa60b676"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W036.txt",
+      "bytes": 728,
+      "sha256": "128dff8902edb6a8eed6c0516ba1a3b58251c9173f8d44c95d879629801dbd72"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/W037.txt",
+      "bytes": 757,
+      "sha256": "2ce9d00cdfa48ceed156c08ad28fd172941f4f9d2985767532c3eca9b9fa48ff"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/index.json",
+      "bytes": 72247,
+      "sha256": "a63becf26ac06556717415f4d6e7c6b301e29ae05b82d157d411e6ac9cc40f16"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/raw/20260918-R02-script.txt",
+      "bytes": 31742,
+      "sha256": "c04d29dbd57258079172ca1105764d191dc895bcaa352265afbbaa9951944d11"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim/raw/20260918-body.txt",
+      "bytes": 30079,
+      "sha256": "aa31cd10aadaa286d2c91803069fff33641e1828ef11e2a9c132fe64f33dba77"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/verbatim-library.md",
+      "bytes": 9802,
+      "sha256": "eef898610d35e0afc77c95f75863c6f32007a6c7d28338accc92724082521624"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/video-case-evidence.md",
+      "bytes": 8590,
+      "sha256": "ef2cc0ad55297770007a0472de5136a3a2aa93f8f7fb12348e35cbd65bb9ff29"
+    },
+    {
+      "path": "skills/libtv-shot-workflow/references/video-workcard.md",
+      "bytes": 3230,
+      "sha256": "df35b7b666aa06e21b4f9c8a783a80b582881864532ea20ca7e66c462b3225bd"
+    }
+  ]
+}

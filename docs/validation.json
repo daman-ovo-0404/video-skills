@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-29",
+  "skill_count": 2,
+  "skill_file_count": 76,
+  "verbatim_sample_count": 52,
+  "verbatim_samples_sha256_and_bytes": "passed",
+  "all_txt_identical_to_workspace_source": true,
+  "broken_internal_markdown_links": [],
+  "machine_absolute_paths_in_markdown": 0,
+  "manifest_sha256": "passed",
+  "frontmatter_required_fields": "passed",
+  "common_credential_scan": "passed; independent source review",
+  "generation_or_editing_executed": false,
+  "external_skills": "catalog_only; not vendored or runtime-tested"
+}

@@ -1,0 +1,1778 @@
+{
+  "samples": [
+    {
+      "id": "W001",
+      "file": "W001.txt",
+      "subject": [
+        "人物"
+      ],
+      "shot_tags": [
+        "近景"
+      ],
+      "shot_tag_basis": "来自上游首帧内容的研究标签，运动提示本身未声明景别",
+      "task": "单图运动",
+      "source_url": "https://www.liblib.tv/detail/2f269a1533ee42ed92b29a0924211dbf",
+      "node_id": "v-GCrGqpljtA",
+      "prompt_kind": "video_motion",
+      "input": "上游 i-VvcDXh53in 为海边女子头肩首帧",
+      "completeness": "所见提示全文",
+      "read_date": "2026-09-18",
+      "sha256": "e2549aea33fc9993d98074064717d3212efeb2d8a6100f16109868e667231166",
+      "bytes": 66,
+      "verbatim": true,
+      "verification": "与当次公开节点中完整可见的单行提示逐字核对；UTF-8保存，不补句号或换行"
+    },
+    {
+      "id": "W002",
+      "file": "W002.txt",
+      "subject": [
+        "环境"
+      ],
+      "shot_tags": [],
+      "shot_tag_basis": "编辑指令不限定景别，不强行分类",
+      "task": "局部去除主体",
+      "source_url": "https://www.liblib.tv/detail/05f7a5c8435e40f780d5d23f2e063b7b",
+      "node_id": "i-41gAtsys5z",
+      "prompt_kind": "image_edit",
+      "input": "上游 i-cmkQu7G7fD",
+      "completeness": "所见提示全文",
+      "read_date": "2026-09-18",
+      "sha256": "81e9ef6a12c1fcb7c26413d53052936e818b03375e2a2dfbcdd8bb56651769f9",
+      "bytes": 27,
+      "verbatim": true,
+      "verification": "与当次公开节点中完整可见的单行提示逐字核对；UTF-8保存，不补句号或换行"
+    },
+    {
+      "id": "W003",
+      "file": "W003.txt",
+      "title": "蓝色Emira变磨砂黑SCURA，火山峡谷追逐",
+      "subject": [
+        "车辆"
+      ],
+      "shot_tags": [
+        "中近景",
+        "特写"
+      ],
+      "shot_tag_basis": "分类取自用户本段明确文字；未声明景别的车辆静帧不凭焦距推断",
+      "task": "多参考车辆行驶与外观变化",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_message",
+      "copy_request_id": "R01",
+      "source_url": "https://www.liblib.tv/detail/3dd73fa27098452ea09240d43512d515",
+      "source_attribution": "依据此前复制请求和本次内容关联到作品页；用户未提供本段节点ID，未再次逐字核对网页",
+      "node_id": null,
+      "source_span": {
+        "file": "raw/20260918-body.txt",
+        "byte_start": 0,
+        "byte_end": 8125
+      },
+      "completeness": "用户正文中该段全文；保留收到的首尾字符",
+      "media_markers": [
+        "{{Mixed 1}}",
+        "{{Mixed 2}}"
+      ],
+      "media_bindings_status": "仅收到引用标记文本，未收到实际媒体和绑定关系",
+      "read_date": "2026-09-18",
+      "sha256": "1380422b1c854b6b20c9d7742f8e7ed3894e565ff0d2652c567f6bcd65cb77e1",
+      "bytes": 8125,
+      "verbatim": true,
+      "verification": "逐字节等于归档用户正文中指定UTF-8字节区间，无空白、实体或标点归一化",
+      "notes": "本文为12秒、引用Mixed 1与Mixed 2；先前定位节点预览10秒、5图，具体节点不据此确认。正文开头的1.原样保留。"
+    },
+    {
+      "id": "W004",
+      "file": "W004.txt",
+      "title": "银白超跑驶入赛道弯道",
+      "subject": [
+        "车辆"
+      ],
+      "shot_tags": [],
+      "shot_tag_basis": "分类取自用户本段明确文字；未声明景别的车辆静帧不凭焦距推断",
+      "task": "车辆静帧构图与光色",
+      "prompt_kind": "image",
+      "source_type": "user_provided_message",
+      "copy_request_id": "R03",
+      "source_url": "https://www.liblib.tv/detail/13f058363b5a468b855377e433050103",
+      "source_attribution": "依据此前复制请求和本次内容关联到作品页；用户未提供本段节点ID，未再次逐字核对网页",
+      "node_id": null,
+      "source_span": {
+        "file": "raw/20260918-body.txt",
+        "byte_start": 8127,
+        "byte_end": 8812
+      },
+      "completeness": "用户正文中该段全文；保留收到的首尾字符",
+      "media_markers": [],
+      "media_bindings_status": "仅收到引用标记文本，未收到实际媒体和绑定关系",
+      "read_date": "2026-09-18",
+      "sha256": "69ab9f7d1f242a540ca319f5da1756e74faa5138efce15751f6bfa19395c39e1",
+      "bytes": 685,
+      "verbatim": true,
+      "verification": "逐字节等于归档用户正文中指定UTF-8字节区间，无空白、实体或标点归一化",
+      "notes": "本段描述进入弯道，先前清单为出弯加速，按用户本次段落保存，具体图片节点未确认；白天与黄昏两种表述均保留。"
+    },
+    {
+      "id": "W005",
+      "file": "W005.txt",
+      "title": "人物脸部与身体正侧背三视图",
+      "subject": [
+        "人物"
+      ],
+      "shot_tags": [
+        "超特写",
+        "全身三视图"
+      ],
+      "shot_tag_basis": "分类取自用户本段明确文字；未声明景别的车辆静帧不凭焦距推断",
+      "task": "人物设定卡与服装参考",
+      "prompt_kind": "image",
+      "source_type": "user_provided_message",
+      "copy_request_id": "R04",
+      "source_url": "https://www.liblib.tv/detail/1918e4892bc54869b98fdac202d3b728",
+      "source_attribution": "依据此前复制请求和本次内容关联到作品页；用户未提供本段节点ID，未再次逐字核对网页",
+      "node_id": null,
+      "source_span": {
+        "file": "raw/20260918-body.txt",
+        "byte_start": 8814,
+        "byte_end": 9299
+      },
+      "completeness": "用户正文中该段全文；保留收到的首尾字符",
+      "media_markers": [
+        "{{Image 1}}"
+      ],
+      "media_bindings_status": "仅收到引用标记文本，未收到实际媒体和绑定关系",
+      "read_date": "2026-09-18",
+      "sha256": "d0375ca3e6b74136eea14f7ff8d4409f2d2050616d6266532c6fefc44ffa5aea",
+      "bytes": 485,
+      "verbatim": true,
+      "verification": "逐字节等于归档用户正文中指定UTF-8字节区间，无空白、实体或标点归一化",
+      "notes": "文本中的HTML实体、重复电影级布光以及比例空格原样保留；三视图标签不等于单一电影全景。"
+    },
+    {
+      "id": "W006",
+      "file": "W006.txt",
+      "title": "班尼从街道走向咖啡馆的五镜段落",
+      "subject": [
+        "拟人动物角色"
+      ],
+      "shot_tags": [
+        "全景",
+        "中景",
+        "中近景",
+        "近景"
+      ],
+      "shot_tag_basis": "分类取自用户本段明确文字；未声明景别的车辆静帧不凭焦距推断",
+      "task": "持物连续性、前进方向、对白和喜剧停顿",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_message",
+      "copy_request_id": "R05",
+      "source_url": "https://www.liblib.tv/detail/8a1e3f3067ad4e699fd48ad509760148",
+      "source_attribution": "依据此前复制请求和本次内容关联到作品页；用户未提供本段节点ID，未再次逐字核对网页",
+      "node_id": null,
+      "source_span": {
+        "file": "raw/20260918-body.txt",
+        "byte_start": 9301,
+        "byte_end": 21260
+      },
+      "completeness": "用户正文中该段全文；保留收到的首尾字符",
+      "media_markers": [
+        "{{Mixed 5}}",
+        "{{Mixed 7}}",
+        "{{Mixed 9}}",
+        "{{Mixed 10}}",
+        "{{Mixed 8}}",
+        "{{Mixed 3}}",
+        "{{Mixed 1}}",
+        "{{Mixed 2}}",
+        "{{Mixed 6}}",
+        "{{Mixed 4}}"
+      ],
+      "media_bindings_status": "仅收到引用标记文本，未收到实际媒体和绑定关系",
+      "read_date": "2026-09-18",
+      "sha256": "d808808d20084bbfae87f5984a244fbcc3cdbe5551a9f04e5cbc763ed905b1bf",
+      "bytes": 11959,
+      "verbatim": true,
+      "verification": "逐字节等于归档用户正文中指定UTF-8字节区间，无空白、实体或标点归一化",
+      "notes": "本次是街道到咖啡馆门口的五镜段落，区别于原清单咖啡馆内落座和服务员插话节点；不绑定原节点ID。原文中要求把补充约束放入末尾的句子也作为样本文字保存。"
+    },
+    {
+      "id": "W007",
+      "file": "W007.txt",
+      "title": "小满抱猫包上楼、听门、开锁入户",
+      "subject": [
+        "人物",
+        "动物"
+      ],
+      "shot_tags": [
+        "中远景",
+        "中近景"
+      ],
+      "shot_tag_basis": "分类取自用户本段明确文字；未声明景别的车辆静帧不凭焦距推断",
+      "task": "空间、道具结构、参考解锁、动作顺序与硬切",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_message",
+      "copy_request_id": "R06",
+      "source_url": "https://www.liblib.tv/detail/60fe57d2f67c461aa3d16ad89302c006",
+      "source_attribution": "依据此前复制请求和本次内容关联到作品页；用户未提供本段节点ID，未再次逐字核对网页",
+      "node_id": null,
+      "source_span": {
+        "file": "raw/20260918-body.txt",
+        "byte_start": 21262,
+        "byte_end": 30079
+      },
+      "completeness": "用户正文中该段全文；保留收到的首尾字符",
+      "media_markers": [
+        "{{Mixed 1}}",
+        "{{Mixed 5}}",
+        "{{Mixed 4}}",
+        "{{Mixed 3}}",
+        "{{Mixed 2}}"
+      ],
+      "media_bindings_status": "仅收到引用标记文本，未收到实际媒体和绑定关系",
+      "read_date": "2026-09-18",
+      "sha256": "3a699fca13c11adaab407dd92f48a9e56e4ea33bc5238700023ba6f109dbbb72",
+      "bytes": 8817,
+      "verbatim": true,
+      "verification": "逐字节等于归档用户正文中指定UTF-8字节区间，无空白、实体或标点归一化",
+      "notes": "本次为18秒上楼入户两镜，区别于原清单女孩抛球与猫取球14秒节点；不绑定原节点ID或白模输入。"
+    },
+    {
+      "id": "W008",
+      "file": "W008.txt",
+      "title": "未来脚本记录01／静帧",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "特写"
+      ],
+      "shot_label_original": "极近景/特写",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 1,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 445,
+        "byte_end": 1405,
+        "line": 12
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "0891ae4729b104a7adef3cb43ecb6861f137e6bb3e155de21675aac3d26a7c12",
+      "bytes": 960,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W009",
+      "file": "W009.txt",
+      "title": "未来脚本记录02／静帧",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "中远景"
+      ],
+      "shot_label_original": "中远景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 2,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 2275,
+        "byte_end": 3243,
+        "line": 25
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "cf792b72c2a386af4bb8c4016b29de77583fc9055d70d4422a5abd36f4205749",
+      "bytes": 968,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W010",
+      "file": "W010.txt",
+      "title": "未来脚本记录03／静帧",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "全景",
+        "中景"
+      ],
+      "shot_label_original": "全景转中景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 3,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 4063,
+        "byte_end": 5023,
+        "line": 38
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "b727ddcc3cb356fe5b8484bd04e884da793d0480ddb8cd4965b92d16bd81d2c2",
+      "bytes": 960,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W011",
+      "file": "W011.txt",
+      "title": "未来脚本记录04／静帧",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "中景"
+      ],
+      "shot_label_original": "低机位侧中景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 4,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 5974,
+        "byte_end": 6964,
+        "line": 51
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "7b76666d72d0f6d459a223069bd337a0d30194254d545e1c7ed4c447f8b3ed06",
+      "bytes": 990,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W012",
+      "file": "W012.txt",
+      "title": "未来脚本记录05／静帧",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "中景"
+      ],
+      "shot_label_original": "中景/过肩镜头",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 5,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 7931,
+        "byte_end": 8927,
+        "line": 64
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "abd6a7a8597cc8f5c703a3ec938f97b410ad6778cfdcf71e60e3b275556ca75b",
+      "bytes": 996,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W013",
+      "file": "W013.txt",
+      "title": "未来脚本记录06／静帧",
+      "subject": [
+        "动物",
+        "人物"
+      ],
+      "characters": [
+        "猫",
+        "老人"
+      ],
+      "shot_tags": [
+        "中景"
+      ],
+      "shot_label_original": "中景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 6,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 10129,
+        "byte_end": 11282,
+        "line": 77
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "e2db26f0ca73e439449fb3cf173e6ebe8bba3aef36cdf54ef98b094b54d1c782",
+      "bytes": 1153,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W014",
+      "file": "W014.txt",
+      "title": "未来脚本记录07／静帧",
+      "subject": [
+        "动物",
+        "人物"
+      ],
+      "characters": [
+        "猫",
+        "老人"
+      ],
+      "shot_tags": [
+        "近景",
+        "特写"
+      ],
+      "shot_label_original": "近景/特写",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 7,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 12491,
+        "byte_end": 13659,
+        "line": 90
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "37927e75747223470afd564ed1231020fbccb32427a226ee5ac611bcc5ee6499",
+      "bytes": 1168,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W015",
+      "file": "W015.txt",
+      "title": "未来脚本记录08／静帧",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "全景",
+        "远景"
+      ],
+      "shot_label_original": "全景/远景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 8,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 14669,
+        "byte_end": 15688,
+        "line": 103
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "27232e3cc539da62b6d4b8c81ad530013bc3df2887e44d65ff37afb76ca5d23c",
+      "bytes": 1019,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W016",
+      "file": "W016.txt",
+      "title": "未来脚本记录09／静帧",
+      "subject": [
+        "动物",
+        "人物"
+      ],
+      "characters": [
+        "猫",
+        "孩子"
+      ],
+      "shot_tags": [],
+      "shot_label_original": "深景深/双焦点镜头",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 9,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 16747,
+        "byte_end": 17955,
+        "line": 116
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "864eeb1c4b4ec81dc33a6f3738c86ef9f713e5491d81c0e7b0ecf3ab87c0bef5",
+      "bytes": 1208,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W017",
+      "file": "W017.txt",
+      "title": "未来脚本记录10／静帧",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "远景"
+      ],
+      "shot_label_original": "大远景/俯拍",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 10,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 19088,
+        "byte_end": 20158,
+        "line": 129
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "827df99a3ae1319af3c58f44ae55cf34077657dd63445784a63aea71f67ce25e",
+      "bytes": 1070,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W018",
+      "file": "W018.txt",
+      "title": "未来脚本记录11／静帧",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "中景"
+      ],
+      "shot_label_original": "中景/侧面",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 11,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 21187,
+        "byte_end": 22182,
+        "line": 142
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "6c902b068bc1194ca7f9aa072b6e4b5fbaf10fde3f76b8a04c9fbb1a29aa288c",
+      "bytes": 995,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W019",
+      "file": "W019.txt",
+      "title": "未来脚本记录12／静帧",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [],
+      "shot_label_original": "低机位平拍",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 12,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 23138,
+        "byte_end": 24156,
+        "line": 155
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "ddbfd46b281370688ae1e0379f606f396bdb53cbbe23ead61bb0cf6ddd770feb",
+      "bytes": 1018,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W020",
+      "file": "W020.txt",
+      "title": "未来脚本记录13／静帧",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "全景"
+      ],
+      "shot_label_original": "剪影/全景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 13,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 25163,
+        "byte_end": 26266,
+        "line": 168
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "986c05bfb837dc11eb8171e2b518c1cb83f32eb98e2fb238f2ff4c02cffaf594",
+      "bytes": 1103,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W021",
+      "file": "W021.txt",
+      "title": "未来脚本记录14／静帧",
+      "subject": [
+        "动物",
+        "人物"
+      ],
+      "characters": [
+        "猫",
+        "老人"
+      ],
+      "shot_tags": [
+        "中景",
+        "近景"
+      ],
+      "shot_label_original": "中景转近景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 14,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 27497,
+        "byte_end": 28688,
+        "line": 181
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "0f7ba082071f83a1d192d743d3f94c953f9fb175a518f668bc5fe86468e51f7b",
+      "bytes": 1191,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W022",
+      "file": "W022.txt",
+      "title": "未来脚本记录15／静帧",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "特写"
+      ],
+      "shot_label_original": "极近景/特写",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "静帧构图",
+      "prompt_kind": "image",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 15,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 29830,
+        "byte_end": 30983,
+        "line": 194
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "0f93838cc246925cbfa90055bcf50680e65ce055d1e3cc7bf778b69f8ccd4834",
+      "bytes": 1153,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W023",
+      "file": "W023.txt",
+      "title": "未来脚本记录01／运动",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "特写"
+      ],
+      "shot_label_original": "极近景/特写",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 1,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 1406,
+        "byte_end": 1884,
+        "line": 13
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "25f50ddbbedd3b769cf4936470dc5282385d447cebf7ec21e06eff715707d9ce",
+      "bytes": 478,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W024",
+      "file": "W024.txt",
+      "title": "未来脚本记录02／运动",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "中远景"
+      ],
+      "shot_label_original": "中远景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 2,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 3244,
+        "byte_end": 3693,
+        "line": 26
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "be9462e7a02e1353d3baee467906f3d917c58b07db1731067bcf6319b5a25afc",
+      "bytes": 449,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W025",
+      "file": "W025.txt",
+      "title": "未来脚本记录03／运动",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "全景",
+        "中景"
+      ],
+      "shot_label_original": "全景转中景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 3,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 5024,
+        "byte_end": 5526,
+        "line": 39
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "6a8d1be8f109d412455860e2b11faf952a5ac45b1e6d11f8781bf0defb6582a8",
+      "bytes": 502,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W026",
+      "file": "W026.txt",
+      "title": "未来脚本记录04／运动",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "中景"
+      ],
+      "shot_label_original": "低机位侧中景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 4,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 6965,
+        "byte_end": 7514,
+        "line": 52
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "78a2e927e3948066f9d1308d1ac700db1503acedac5356b40268bbe6f2d986f1",
+      "bytes": 549,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W027",
+      "file": "W027.txt",
+      "title": "未来脚本记录05／运动",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "中景"
+      ],
+      "shot_label_original": "中景/过肩镜头",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 5,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 8928,
+        "byte_end": 9553,
+        "line": 65
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "6a8f6213b0be457af373b7318a932635c2a543a54c8eb6466c230441401962e3",
+      "bytes": 625,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W028",
+      "file": "W028.txt",
+      "title": "未来脚本记录06／运动",
+      "subject": [
+        "动物",
+        "人物"
+      ],
+      "characters": [
+        "猫",
+        "老人"
+      ],
+      "shot_tags": [
+        "中景"
+      ],
+      "shot_label_original": "中景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 6,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 11283,
+        "byte_end": 11899,
+        "line": 78
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "64f5a242fe5c2210821560c8a159a7f86ba7638aa0537ba41c6e56641a2a4e27",
+      "bytes": 616,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W029",
+      "file": "W029.txt",
+      "title": "未来脚本记录07／运动",
+      "subject": [
+        "动物",
+        "人物"
+      ],
+      "characters": [
+        "猫",
+        "老人"
+      ],
+      "shot_tags": [
+        "近景",
+        "特写"
+      ],
+      "shot_label_original": "近景/特写",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 7,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 13660,
+        "byte_end": 14283,
+        "line": 91
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "435782461e1211f461ee719245171c2ebe33fb355ee03356bdbead9494af9eb1",
+      "bytes": 623,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W030",
+      "file": "W030.txt",
+      "title": "未来脚本记录08／运动",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "全景",
+        "远景"
+      ],
+      "shot_label_original": "全景/远景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 8,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 15689,
+        "byte_end": 16224,
+        "line": 104
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "b07f91ee3e9b8aa0e9d91667ee62197db14e57e53d422d7c6294386df1443bfa",
+      "bytes": 535,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W031",
+      "file": "W031.txt",
+      "title": "未来脚本记录09／运动",
+      "subject": [
+        "动物",
+        "人物"
+      ],
+      "characters": [
+        "猫",
+        "孩子"
+      ],
+      "shot_tags": [],
+      "shot_label_original": "深景深/双焦点镜头",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 9,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 17956,
+        "byte_end": 18663,
+        "line": 117
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "57753b14878fc01a845b2529b37c582e03c48a957d1a59976217edc4c140b7e4",
+      "bytes": 707,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W032",
+      "file": "W032.txt",
+      "title": "未来脚本记录10／运动",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "远景"
+      ],
+      "shot_label_original": "大远景/俯拍",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 10,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 20159,
+        "byte_end": 20810,
+        "line": 130
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "590243d137040dd1747b577ac64c077c0f2dfbf9f9303e1475c6e8a2ef82eab2",
+      "bytes": 651,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W033",
+      "file": "W033.txt",
+      "title": "未来脚本记录11／运动",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "中景"
+      ],
+      "shot_label_original": "中景/侧面",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 11,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 22183,
+        "byte_end": 22753,
+        "line": 143
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "adb895d158c000d753dcf87b832b2f79b01daec7e69daac80957bd420c2f225c",
+      "bytes": 570,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W034",
+      "file": "W034.txt",
+      "title": "未来脚本记录12／运动",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [],
+      "shot_label_original": "低机位平拍",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 12,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 24157,
+        "byte_end": 24786,
+        "line": 156
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "2c0e2d98d907afeaf4560d88e04d0ff8ba53e0e1d8e73f79b2fd8802aaeac9d2",
+      "bytes": 629,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W035",
+      "file": "W035.txt",
+      "title": "未来脚本记录13／运动",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "全景"
+      ],
+      "shot_label_original": "剪影/全景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 13,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 26267,
+        "byte_end": 26945,
+        "line": 169
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "24e23efc80a67bcf66f10f6f479a0b979ea3faffee5c13b681c20296fa60b676",
+      "bytes": 678,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W036",
+      "file": "W036.txt",
+      "title": "未来脚本记录14／运动",
+      "subject": [
+        "动物",
+        "人物"
+      ],
+      "characters": [
+        "猫",
+        "老人"
+      ],
+      "shot_tags": [
+        "中景",
+        "近景"
+      ],
+      "shot_label_original": "中景转近景",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 14,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 28689,
+        "byte_end": 29417,
+        "line": 182
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "128dff8902edb6a8eed6c0516ba1a3b58251c9173f8d44c95d879629801dbd72",
+      "bytes": 728,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    },
+    {
+      "id": "W037",
+      "file": "W037.txt",
+      "title": "未来脚本记录15／运动",
+      "subject": [
+        "动物"
+      ],
+      "characters": [
+        "猫"
+      ],
+      "shot_tags": [
+        "特写"
+      ],
+      "shot_label_original": "极近景/特写",
+      "shot_tag_basis": "检索标签依据本记录原景别字段；原始复合标签另存；纯景深或机位标签不强行映射景别",
+      "task": "镜头运动与动作",
+      "prompt_kind": "video_motion",
+      "source_type": "user_provided_attachment",
+      "copy_request_id": "R02",
+      "source_url": "https://www.liblib.tv/detail/20c326c40a7343bdb9dd06762127c8f7",
+      "source_attribution": "依据此前R02请求及本次脚本内容关联；附件本身没有标题、URL或节点ID",
+      "node_id": null,
+      "record_order": 15,
+      "source_span": {
+        "file": "raw/20260918-R02-script.txt",
+        "byte_start": 30984,
+        "byte_end": 31741,
+        "line": 195
+      },
+      "completeness": "该脚本单元格全文；字段分隔换行保留在原始脚本中，单元格文件不补换行",
+      "media_bindings_status": "附件仅含角色描述文字，未包含图片、绑定ID或连线",
+      "read_date": "2026-09-18",
+      "sha256": "2ce9d00cdfa48ceed156c08ad28fd172941f4f9d2985767532c3eca9b9fa48ff",
+      "bytes": 757,
+      "verbatim": true,
+      "verification": "逐字节等于共同脚本相应行内容，行分隔符不属于单元格"
+    }
+  ],
+  "coverage": {
+    "sample_count": 37,
+    "added_in_batch": 35,
+    "body_full_prompts": 5,
+    "script_image_prompts": 15,
+    "script_motion_prompts": 15,
+    "previous_short_prompts": 2,
+    "vehicle_samples": [
+      "W003",
+      "W004"
+    ],
+    "human_samples": [
+      "W001",
+      "W005",
+      "W007",
+      "W013",
+      "W014",
+      "W016",
+      "W021",
+      "W028",
+      "W029",
+      "W031",
+      "W036"
+    ],
+    "anthropomorphic_character_samples": [
+      "W006"
+    ],
+    "shot_examples": {
+      "远景": [
+        "W015",
+        "W017",
+        "W030",
+        "W032"
+      ],
+      "全景": [
+        "W010",
+        "W015",
+        "W020",
+        "W025",
+        "W030",
+        "W035"
+      ],
+      "中景": [
+        "W011",
+        "W012",
+        "W013",
+        "W026",
+        "W027",
+        "W028"
+      ],
+      "近景": [
+        "W014",
+        "W021",
+        "W029",
+        "W036"
+      ],
+      "特写": [
+        "W008",
+        "W014",
+        "W022",
+        "W023",
+        "W029",
+        "W037"
+      ]
+    },
+    "scope": "已覆盖车辆、人物及远全中近特的原文参考；不表示每个主体分别有五种景别，不表示实际生成效果已验证"
+  },
+  "source_documents": [
+    {
+      "file": "raw/20260918-body.txt",
+      "kind": "user_message_body",
+      "bytes": 30079,
+      "sha256": "aa31cd10aadaa286d2c91803069fff33641e1828ef11e2a9c132fe64f33dba77",
+      "prompt_count": 5,
+      "between_prompt_separators": [
+        {
+          "byte_start": 8125,
+          "byte_end": 8127,
+          "hex": "0a0a"
+        },
+        {
+          "byte_start": 8812,
+          "byte_end": 8814,
+          "hex": "0a0a"
+        },
+        {
+          "byte_start": 9299,
+          "byte_end": 9301,
+          "hex": "0a0a"
+        },
+        {
+          "byte_start": 21260,
+          "byte_end": 21262,
+          "hex": "0a0a"
+        }
+      ]
+    },
+    {
+      "file": "raw/20260918-R02-script.txt",
+      "kind": "shared_script_text",
+      "bytes": 31742,
+      "sha256": "c04d29dbd57258079172ca1105764d191dc895bcaa352265afbbaa9951944d11",
+      "records": 15,
+      "lines": 195,
+      "field_names": "元数据字段名由岑根据内容识别；原附件没有表头",
+      "missing_from_input": [
+        "作品标题",
+        "作者",
+        "列名",
+        "原始镜号",
+        "页面URL",
+        "节点ID",
+        "媒体附件和绑定关系"
+      ],
+      "receipt_count": 8,
+      "receipt_last_line_repeated_record_order": [
+        1,
+        2,
+        4,
+        3,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "script_records": [
+    {
+      "record_order": 1,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "4",
+      "description": "清晨，猫在窗边醒来，晨光照亮它的眼睛，确立全片安静从容的基调。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "-",
+      "character_2_description": "-",
+      "shot_label_original": "极近景/特写",
+      "emotion": "宁静，慵懒",
+      "lighting": "清晨柔和的暖金色侧逆光，丁达尔效应带来微尘漂浮的空气感。",
+      "sound": "清晨细微的风声，猫轻微的呼吸声与极低频的呼噜声，无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 1,
+      "source_line_end": 13,
+      "image_sample_id": "W008",
+      "motion_sample_id": "W023"
+    },
+    {
+      "record_order": 2,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "5",
+      "description": "猫走到屋檐边缘，俯瞰远处安静延展的东方未来城市。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "-",
+      "character_2_description": "-",
+      "shot_label_original": "中远景",
+      "emotion": "好奇，开阔",
+      "lighting": "晨雾弥漫，青灰与雾蓝色调，光线均匀柔和。",
+      "sound": "高处极其轻柔的风声，远处的微弱鸟鸣（自然音），无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 14,
+      "source_line_end": 26,
+      "image_sample_id": "W009",
+      "motion_sample_id": "W024"
+    },
+    {
+      "record_order": 3,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "4",
+      "description": "猫轻巧跃下，进入未来社区，开启漫游。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "-",
+      "character_2_description": "-",
+      "shot_label_original": "全景转中景",
+      "emotion": "轻快，自然",
+      "lighting": "斑驳的树影光斑，环境清幽明亮。",
+      "sound": "极轻的落地肉垫声（几乎不可闻），轻微的树叶摩擦声，无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 27,
+      "source_line_end": 39,
+      "image_sample_id": "W010",
+      "motion_sample_id": "W025"
+    },
+    {
+      "record_order": 4,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "5",
+      "description": "猫穿过步道，周围智能环境系统自动为它调节光影与温度，展现环境的呼吸感。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "-",
+      "character_2_description": "-",
+      "shot_label_original": "低机位侧中景",
+      "emotion": "安心，舒适",
+      "lighting": "动态调节的光影，从明亮过渡到柔和的树荫感。",
+      "sound": "极细微的高科技机械花瓣开合声（类似仿生植物），微风声，无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 40,
+      "source_line_end": 52,
+      "image_sample_id": "W011",
+      "motion_sample_id": "W026"
+    },
+    {
+      "record_order": 5,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "4",
+      "description": "无人接驳车安静驶过，智能识别到猫并自然减速避让，体现科技对生命的温柔。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "-",
+      "character_2_description": "-",
+      "shot_label_original": "中景/过肩镜头",
+      "emotion": "平静，不惊扰",
+      "lighting": "明暗交界的树荫下，背景高调但柔和。",
+      "sound": "低频柔和的磁悬浮/电机运行声（极低噪），无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 53,
+      "source_line_end": 65,
+      "image_sample_id": "W012",
+      "motion_sample_id": "W027"
+    },
+    {
+      "record_order": 6,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "4",
+      "description": "猫走入临窗的居家医疗空间，看到安静的老人。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "老人",
+      "character_2_description": "[老人: 一位慈祥的中国老人，满头银发但梳理整齐，穿着米白色带有中式盘扣的舒适棉麻居家服，面容安详，眼神温柔且富有包容感]",
+      "shot_label_original": "中景",
+      "emotion": "温情，羁绊",
+      "lighting": "室内柔和的暖黄光与窗外自然光交织，温馨静谧。",
+      "sound": "轻微的布料摩擦声，极轻微规律的医疗设备“心跳”低频声，无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 66,
+      "source_line_end": 78,
+      "image_sample_id": "W013",
+      "motion_sample_id": "W028"
+    },
+    {
+      "record_order": 7,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "5",
+      "description": "老人温柔抚摸猫，科技监测系统在后方无声运行，凸显科技的隐形与人的温度。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "老人",
+      "character_2_description": "[老人: 一位慈祥的中国老人，满头银发但梳理整齐，穿着米白色带有中式盘扣的舒适棉麻居家服，面容安详，眼神温柔且富有包容感]",
+      "shot_label_original": "近景/特写",
+      "emotion": "安心，温暖",
+      "lighting": "暖金色的局部高光，氛围极度柔和安全。",
+      "sound": "响亮而舒缓的猫呼噜声，轻柔的抚摸摩擦声，无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 79,
+      "source_line_end": 91,
+      "image_sample_id": "W014",
+      "motion_sample_id": "W029"
+    },
+    {
+      "record_order": 8,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "4",
+      "description": "猫穿过带有水景的未来公共连廊，空间呈现极简东方禅意。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "-",
+      "character_2_description": "-",
+      "shot_label_original": "全景/远景",
+      "emotion": "空灵，通透",
+      "lighting": "自然天光，水面反射带来通透的清冷高级感。",
+      "sound": "清脆的一滴水滴落声，水波荡漾的微声，无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 92,
+      "source_line_end": 104,
+      "image_sample_id": "W015",
+      "motion_sample_id": "W030"
+    },
+    {
+      "record_order": 9,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "4",
+      "description": "远处孩子奔跑，猫转头注视，空间设施随孩子动作自动温柔响应。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "孩子",
+      "character_2_description": "[孩子: 一个五六岁的中国孩童，穿着竹绿色宽松衣物，笑容纯真灿烂，充满生命力，动作活泼轻快]",
+      "shot_label_original": "深景深/双焦点镜头",
+      "emotion": "生机，活力",
+      "lighting": "阳光明媚，色彩明快但不过饱和。",
+      "sound": "轻快的脚步声，远处孩子纯真的笑声，无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 105,
+      "source_line_end": 117,
+      "image_sample_id": "W016",
+      "motion_sample_id": "W031"
+    },
+    {
+      "record_order": 10,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "5",
+      "description": "猫来到屋顶花园，俯瞰未来生态城市，风力与太阳能设施完美融入自然景观。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "-",
+      "character_2_description": "-",
+      "shot_label_original": "大远景/俯拍",
+      "emotion": "宏大，和谐",
+      "lighting": "下午的斜阳光线，通透辽阔。",
+      "sound": "呼啸而过的旷野风声，巨大风叶极其缓慢转动的低频“呼呼”声，无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 118,
+      "source_line_end": 130,
+      "image_sample_id": "W017",
+      "motion_sample_id": "W032"
+    },
+    {
+      "record_order": 11,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "4",
+      "description": "傍晚来临，夕阳将猫和城市染成暖金色。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "-",
+      "character_2_description": "-",
+      "shot_label_original": "中景/侧面",
+      "emotion": "温暖，时光流转",
+      "lighting": "魔幻时刻的浓烈暖光，金橙色与深邃蓝对比。",
+      "sound": "风声渐弱，极远处的城市低频嗡鸣（白噪音），无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 131,
+      "source_line_end": 143,
+      "image_sample_id": "W018",
+      "motion_sample_id": "W033"
+    },
+    {
+      "record_order": 12,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "4",
+      "description": "夜色降临，低噪智慧照明随猫的走动温柔亮起。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "-",
+      "character_2_description": "-",
+      "shot_label_original": "低机位平拍",
+      "emotion": "神奇，有序",
+      "lighting": "暗调环境，极低照度的柔和暖光局部照明。",
+      "sound": "轻微的电子灯光点亮的“滴答”微声，猫的脚步声，无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 144,
+      "source_line_end": 156,
+      "image_sample_id": "W019",
+      "motion_sample_id": "W034"
+    },
+    {
+      "record_order": 13,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "4",
+      "description": "猫停在窗前，背后是夜色中柔和发光的未来城市。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "-",
+      "character_2_description": "-",
+      "shot_label_original": "剪影/全景",
+      "emotion": "静谧，旁观",
+      "lighting": "纯暗的前景与低照度、如星光般的城市背景背景光。",
+      "sound": "极静谧的空间底噪，远处的微风声，无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 157,
+      "source_line_end": 169,
+      "image_sample_id": "W020",
+      "motion_sample_id": "W035"
+    },
+    {
+      "record_order": 14,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "5",
+      "description": "猫回到温暖的室内，蜷缩在老人脚边，准备入睡。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "老人",
+      "character_2_description": "[老人: 一位慈祥的中国老人，满头银发但梳理整齐，穿着米白色带有中式盘扣的舒适棉麻居家服，面容安详，眼神温柔且富有包容感]",
+      "shot_label_original": "中景转近景",
+      "emotion": "归属，安心",
+      "lighting": "极度温暖的地灯光线，安全感包裹全身。",
+      "sound": "猫身体接触软垫的摩擦声，放松的呼气声，无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 170,
+      "source_line_end": 182,
+      "image_sample_id": "W021",
+      "motion_sample_id": "W036"
+    },
+    {
+      "record_order": 15,
+      "order_note": "按附件记录顺序编号，附件没有原始镜号",
+      "duration_text": "4",
+      "description": "极近景展现猫闭眼入睡，背景灯光模糊，暗示未来就是让人与万物安心。",
+      "character_1_name": "猫",
+      "character_1_description": "[猫: 一只中华田园橘猫，体态轻盈，毛发柔软泛着温润的光泽，眼神好奇且宁静，动作优雅从容]",
+      "character_2_name": "-",
+      "character_2_description": "-",
+      "shot_label_original": "极近景/特写",
+      "emotion": "彻底安心，沉浸",
+      "lighting": "极度柔和的微光与唯美的背景散景。",
+      "sound": "极其微弱且规律的猫呼吸声，渐渐归于绝对宁静，无音乐。",
+      "dialogue": "无对白",
+      "source_line_start": 183,
+      "source_line_end": 195,
+      "image_sample_id": "W022",
+      "motion_sample_id": "W037"
+    }
+  ]
+}
